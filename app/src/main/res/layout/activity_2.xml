@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="602dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/results"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="Suggestions"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/suggestion_intro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/food1"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/app_name"
+                 />
+            <TextView
+                android:id="@+id/food1_desc"
+                android:layout_width="match_parent"
+                android:layout_height="112dp"
+                android:layout_margin="20dp"
+                android:hint="food1 description"/>
+            <ImageView
+                android:id="@+id/food2"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/app_name"
+                />
+            <TextView
+                android:id="@+id/food2_desc"
+                android:layout_width="match_parent"
+                android:layout_height="112dp"
+                android:layout_margin="20dp"
+                android:hint="food2 description"/>
+            <ImageView
+                android:id="@+id/food3"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/app_name"
+                 />
+            <TextView
+                android:id="@+id/food3_desc"
+                android:layout_width="match_parent"
+                android:layout_height="112dp"
+                android:layout_margin="20dp"
+                android:hint="food3 description" />
+            <ImageView
+                android:id="@+id/food4"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/app_name"
+                 />
+            <TextView
+                android:id="@+id/food4_desc"
+                android:layout_width="match_parent"
+                android:layout_height="112dp"
+                android:layout_margin="20dp"
+                android:hint="food4 description" />
+            <ImageView
+                android:id="@+id/food5"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/app_name"
+                />
+            <TextView
+                android:id="@+id/food5_desc"
+                android:layout_width="match_parent"
+                android:layout_height="112dp"
+                android:layout_margin="20dp"
+                android:hint="food5 description" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

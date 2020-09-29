@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">What To Eat</string>
+    <string name="intro">Do you not know what you should eat for lunch AGAIN? Let me give you some suggestions based on the weather. <br/>
+        Today\'s weather is......</string>
+    <string name="hint">Today\'s weather will be seen here.</string>
+    <string name="document_url">https://www.wunderground.com/weather/us/ca/sunnyvale</string>
+</resources>
